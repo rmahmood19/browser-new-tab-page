@@ -1,7 +1,7 @@
 <template>
     <div
-        class="bg-gray-800 text-white rounded-full px-4 py-2 w-28 text-center cursor-pointer"
-        :class="{'border-2 border-red-200 border-fade-in': active}"
+        class="bg-gray-800  rounded-full px-4 py-2 w-28 text-center cursor-pointer"
+        :class="{'border-2 border-red-200 border-fade-in text-teal-300': active}"
         @click="$emit('select', value)"
     >
         {{ label }}
